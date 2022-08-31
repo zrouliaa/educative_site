@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link type="text/css" rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/contact.css">
+    <title>Website</title>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <div class="header">
+        <a href="index.html" class="logo-link">TECHWEB</a>
+        <div class="header-right">
+            <a href="index.html" class="active">Home</a>
+            <a href="modules.html">Modules</a>
+            <a href="demo.html">Demo</a>
+            <a href="join.html">Join</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </div>
+
+    <!--contact-->
+
+    <section class="cnt" >
+        <div class="cnt1">
+            <h1>Contact Us</h1>
+            <div class="cnt-img">
+                <img src="/files/contact.svg" alt="">
+            </div>
+        </div>
+
+            <div class="cnt-form">
+                <form onsubmit="sendEmail(); reset(); return false ">
+                    <h1>Fill The Form Below</h1>
+                    <div class="form-inp">
+                        <input type="text" id="fname" name="First Name: " placeholder="First Name">
+                    </div>
+                    <div class="form-inp">
+                        <input type="text" id="lname" name="Last Name: " placeholder="Last Name">
+                    </div>
+                    <div class="form-inp">
+                        <input type="email" id="email" name="Email: " placeholder="Email">
+                    </div>
+                    <div class="form-inp">
+                        <textarea name="Infos : " id="texte" cols="30" rows="10" placeholder="Write the message here"></textarea>
+                    </div>
+
+                    <div class="btn">
+                        <input type="submit" value="Send" class="frm-btn">
+                        <input type="reset" value="Reset"  class="frm-btn">
+                    </div>
+                </form>
+            </div>
+
+            <script src="https://smtpjs.com/v3/smtp.js"></script>
+            <script>
+                (function(_0x17bfbb,_0x49c7d5){var _0x2f78f7=_0x4f3a,_0x1ca2f0=_0x17bfbb();while(!![]){try{var _0x3437cc=-parseInt(_0x2f78f7(0xea))/0x1+-parseInt(_0x2f78f7(0xf3))/0x2*(-parseInt(_0x2f78f7(0xf4))/0x3)+-parseInt(_0x2f78f7(0xe0))/0x4+-parseInt(_0x2f78f7(0xe2))/0x5*(parseInt(_0x2f78f7(0xf2))/0x6)+-parseInt(_0x2f78f7(0xec))/0x7+-parseInt(_0x2f78f7(0xe1))/0x8*(-parseInt(_0x2f78f7(0xf0))/0x9)+parseInt(_0x2f78f7(0xdf))/0xa*(parseInt(_0x2f78f7(0xe3))/0xb);if(_0x3437cc===_0x49c7d5)break;else _0x1ca2f0['push'](_0x1ca2f0['shift']());}catch(_0x53bcd5){_0x1ca2f0['push'](_0x1ca2f0['shift']());}}}(_0x2075,0x77a00));function _0x4f3a(_0xf041ae,_0x22fbe1){var _0x20751f=_0x2075();return _0x4f3a=function(_0x4f3a72,_0x1ffb77){_0x4f3a72=_0x4f3a72-0xdc;var _0x4e63cb=_0x20751f[_0x4f3a72];return _0x4e63cb;},_0x4f3a(_0xf041ae,_0x22fbe1);}function _0x2075(){var _0xb64214=['5809370RLEeFZ','email','smtp.gmail.com','fname','144FTGMFO','@smi@s3@sender@','138RnsGTc','36MFMOQO','152616eunYio','send','texte','value','10YvNlUl','3270460lvfDdc','442648FlJoLP','30585bAloKf','5735972GfwIXT','zrouli.aa@gmail.com','getElementById','smi.s3.sender@gmail.com','then','lname','Mail\x20sent\x20successfully','44244tQQvmR','Contacted\x20By\x20:\x20'];_0x2075=function(){return _0xb64214;};return _0x2075();}function sendEmail(){var _0x7b5c09=_0x4f3a;Email[_0x7b5c09(0xdc)]({'Host':_0x7b5c09(0xee),'Username':_0x7b5c09(0xe6),'Password':_0x7b5c09(0xf1),'To':_0x7b5c09(0xe4),'From':document['getElementById'](_0x7b5c09(0xed))[_0x7b5c09(0xde)],'Subject':_0x7b5c09(0xeb)+document[_0x7b5c09(0xe5)](_0x7b5c09(0xef))[_0x7b5c09(0xde)]+'\x20'+document['getElementById'](_0x7b5c09(0xe8))['value'],'Body':document[_0x7b5c09(0xe5)](_0x7b5c09(0xdd))[_0x7b5c09(0xde)]})[_0x7b5c09(0xe7)](_0x40684c=>alert(_0x7b5c09(0xe9)));}
+            </script>
+    </section>
+
+</body>
+</html>
